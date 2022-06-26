@@ -1,0 +1,15 @@
+.idea/
+.DS_Store
+.env
+# ignore node dependency directories
+node_modules/
+
+# The package-lock.json integrity value depends on the OS/architecture
+# The generated package-lock.json can differ from machine to machine and it can cause problems on
+# Macs with apple silicon chip
+package-lock.json
+
+# ignore log files and databases
+*.log
+*.sql
+*.sqlite

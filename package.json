@@ -1,0 +1,25 @@
+{
+  "name": "wordpress-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "wp-scripts start",
+    "build": "wp-scripts build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ovimatei/wordpress-boilerplate.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ovimatei/wordpress-boilerplate/issues"
+  },
+  "homepage": "https://github.com/ovimatei/wordpress-boilerplate#readme",
+  "devDependencies": {
+    "@wordpress/scripts": "^23.3.0"
+  }
+}
