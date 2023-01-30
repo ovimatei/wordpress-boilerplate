@@ -4,6 +4,7 @@ services:
 
   db:
     image: mysql:5.7
+    platform: linux/x86_64/v8 # for M1 Macs
     restart: always
     environment:
       - MYSQL_ROOT_PASSWORD=${MYSQL_ROOT_PASSWORD}
